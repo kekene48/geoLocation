@@ -31,7 +31,7 @@ btn.onclick = () => {
         const latlng = {
             lat: parseFloat(latlngStr[0]),
             lng: parseFloat(latlngStr[1]),
-        };
+        }; 
 
         geocoder
         .geocode({ location: latlng })
